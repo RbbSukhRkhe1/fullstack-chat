@@ -15,10 +15,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag gitpipe
-      
-    - name: Tagging the Docker Image
+      run: docker build . --file Dockerfile gitpipe
       run: docker tag my-image-name asia.gcr.io/windy-nova-380710/gitpipe
-      
-    - name: Pushing the Docker Image
       run: docker push asia.gcr.io/windy-nova-380710/gitpipe
