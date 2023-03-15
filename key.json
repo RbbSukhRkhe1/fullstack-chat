@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "windy-nova-380710",
+  "private_key_id": "a8782c0504c6cacb4af4cb626ac8d045d0743bf2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCz8nq0l85KlwCT\nT2nrMiL29VzMeXEePAe+dRQTKU4MdvCu/ti8CjeSZgVuRmh6tES56UIU6kTs2Jj2\ngV1OSvBUXYyTbDiHEHAByx74CymcB7ZkzNFMrwRHvbMRCh8QqvCt6EDZ4GtiO5+y\nGAcvffi+fNqDhhBsljdGNWw2FgC/mpUie5BjDV3h8g2gNG76FfB5Ssjal+NdFlYI\n4nu0wU2IXAVlyEaXdP9Sk+jZ9uvtKFC7XCYQ2tHnvkKN8aPGJGUnSXATXpyRp2Zk\n2vfh2ck0V61kTEUVPTv3HLZ/r22gbXtSoI/npsw51bZH5ga0c3GYASJs2NzOBk5o\nhhEiIinxAgMBAAECggEAHcUamEh6FDx9l6Fefk7l2nH2x4w60tvvEwsHBnGBrE28\nHVNjk15kWbe/o8IJtG0g5pnouRGV1BI0Yim+QD7lGiv83wHbKzsksKNETRh5qorb\nGbuJz9QvktfXKVVBlO4W0cqX+gOm+FIxZhMUEz8VuRvqQbKbAn/qhpa9f4gt2QTI\nmzmLIYTS+e5EIfZmLPXcWMvn9CGoGFwIdO0LUhVJ32vWG1oTE9bvFPhbz0v3BaVY\nNmV+V6LCBH47Wf2PrHwHJaombLQe9KZfbmvq6TAI6FoJCLt4jmv1m9SHuKAoCJCy\nOGDES9fo+kRUlK9i/ZDGlkiXADLrMNp3xUWtpNoxXQKBgQDggN6uglH+r8A7H495\n4Wuu112KUCmZETT9tSEOKNDH1ur9HjExzAA/XjwBd80zA19RnJJII9aN3wMGs5tA\nBa6co7otucufJAoS3/ti3Vdk607Nfr/pUuw9DD/STxlK/XpNJImCtWSnX2lVJfT1\nND/7A9ZuxjUK0osKFwfNYwkPhQKBgQDNMVrnY78Ss32PXr5fKu11cyWOrT494F/0\nDoPro9Tl5H8A8aJ8t1bD6WCXlFGbLBC4JpTRglaZy94F2rqmvG9828/PenIsHn25\n+TXBcJpzDo5/7xNI1Mk2UIkwHsNGwzWaqRr8EE5qDcnXs9M4MGf4oOyvjzId1tI3\n9UG6JpQefQKBgGbPHSrVSy9S1Lk+jrnF3UZIIfIBG8uY8adtlyGg11tstFgNx4GC\nZmqegOQ7NKEz3ibFiMe4gbyecAhVn7cF4xygbdYay4CpRGO4Zqqzqh3xFDlO3hu/\neafLQD7TMkYBJkzFeqN85gcvzlDL/Q19S/9rlntMEWZPXJTWTyBjRfbxAoGBAMzZ\n/TsM5fExqKS9nak9HhwnfNNYOc9kdecdpq5VvXJWEEVM9z8zejfUgk5SELat43M1\ncVVInlSkp1+I4tcbQOKSQIGOaPWK61IDbptUY52CZtlqQQJxDQBgntWfoKzArn9d\nXEdRsDdI1L24FaL/EI2zexg6CXqowO6Et720TiOxAoGAIux2EhZXuR9vaUTX5/Hx\neyHRDV0Ls/ga8VujRJTm7B7ZcEqT/dpz5nQ6F17eLE0sm1nE+SCyfyRl1ddSCxDx\nZrUhDoJXTM7DiaVYxiE4b/jNbHGSeXI3pY0+sMzm5LosgKTJQhhIDTuMV9qO+ze8\nGa84c7I6Pntwq6dFK12rBE0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "k8s-878@windy-nova-380710.iam.gserviceaccount.com",
+  "client_id": "115456400414630283114",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/k8s-878%40windy-nova-380710.iam.gserviceaccount.com"
+}
