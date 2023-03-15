@@ -41,18 +41,18 @@ jobs:
 
     # Configure Workload Identity Federation and generate an access token.
     - id: 'auth'
-      name: 'Authenticate to Google Cloud'
-      uses: 'google-github-actions/auth@v0'
-      with:
-        token_format: 'access_token'
-        workload_identity_provider: 'projects/614444509393/locations/global/workloadIdentityPools/my-pool'
-        service_account: 'k8s-878@windy-nova-380710.iam.gserviceaccount.com'
+    #  name: 'Authenticate to Google Cloud'
+     # uses: 'google-github-actions/auth@v0'
+      #with:
+       # token_format: 'access_token'
+       # workload_identity_provider: 'projects/614444509393/locations/global/workloadIdentityPools/my-pool'
+       # service_account: 'k8s-878@windy-nova-380710.iam.gserviceaccount.com'
 
     # Alternative option - authentication via credentials json
-    # - id: 'auth'
-    #   uses: 'google-github-actions/auth@v0'
-    #   with:
-    #     credentials_json: '${{ secrets.GCP_CREDENTIALS }}'
+    - id: 'auth'
+       uses: 'google-github-actions/auth@v0'
+       with:
+         credentials_json: '${{ secrets.GCP_CREDENTIALS }}'
 
     - name: Docker configuration
       run: |-
