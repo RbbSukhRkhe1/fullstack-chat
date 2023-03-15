@@ -18,7 +18,7 @@ jobs:
       run: docker build . --file Dockerfile -t gitpipe:latest
     
     - name: Tag the Docker image
-      run: docker tag my-image-name asia.gcr.io/windy-nova-380710/gitpipe
+      run: docker tag gitpipe asia.gcr.io/windy-nova-380710/gitpipe:latest
       
     - name: Push the Docker image
-      run: docker push asia.gcr.io/windy-nova-380710/gitpipe
+      run: docker push asia.gcr.io/windy-nova-380710/gitpipe:latest
