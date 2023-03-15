@@ -20,5 +20,9 @@ jobs:
     - name: Tag the Docker image
       run: docker tag gitpipe asia.gcr.io/windy-nova-380710/gitpipe:latest
       
+    - name: Docker Login to GCP
+      run: cat key.json | docker login -u _json_key_base64 --password-stdin \
+            https://asia.gcr.io
+      
     - name: Push the Docker image
       run: docker push asia.gcr.io/windy-nova-380710/gitpipe:latest
